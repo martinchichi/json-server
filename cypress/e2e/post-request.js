@@ -18,6 +18,7 @@ describe("Post Request", () => {
       expect(response.status).to.eql(201);
     });
   });
+
   it("Validate title of latest post", () => {
     cy.request({
       method: "GET",
